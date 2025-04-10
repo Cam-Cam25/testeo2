@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'photo-analyzer',
   webDir: 'dist/photo-analyzer',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'dist/photo-analyzer/browser'
   },
   plugins: {
     Camera: {
