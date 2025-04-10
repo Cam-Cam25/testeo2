@@ -3,9 +3,9 @@ import { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
   appId: 'com.photoanalyzer.app',
   appName: 'photo-analyzer',
-  webDir: 'dist/photo-analyzer',
+  webDir: 'dist/photo-analyzer/browser',
   server: {
-    androidScheme: 'dist/photo-analyzer/browser'
+    androidScheme: 'https'
   },
   plugins: {
     Camera: {

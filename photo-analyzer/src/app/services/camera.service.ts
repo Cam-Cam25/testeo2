@@ -105,7 +105,7 @@ export class CameraService {
       
       return image.base64String;
     } catch (error) {
-      console.error('Error al capturar la foto:', error);
+      console.error('Error al caurar la foto:', error);
       throw error;
     }
   }
